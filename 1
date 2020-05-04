@@ -1,0 +1,155 @@
+#NAME: PAUL LABHANI COURAGE
+#MATRICULATION NUMBER : BHU/19/04/05/0067
+#DEPARTMENT : COMPUTER SCIENCE
+#LEVEL : 100
+#area of square
+def calcarea(a):
+    area = a * a
+    return area
+a =int(input("enter length : " ))
+area = calcarea(a)
+print("area of a square : ", area)
+
+
+#area of a rectangle
+def calcarea(l,b):
+    area = l * b
+    return area
+l = int(input("enter the length : "))
+b = int(input("enetr the breath : "))
+area = calcarea(l,b)
+print("area of rectangle : ",area)
+
+
+#area of a triangle
+def calcarea(b,h):
+    area = 1/2 * b * h
+    return area
+b = int(input("enter the base : "))
+h = int(input("enter the height : "))
+area = calcarea(b,h)
+print("area of triangle : ",area)
+
+
+#area of a trapezoid
+def calcarea(b,h):
+    area = 1/2 * (b1 + b2) * h
+    return area
+b1 = int(input("enter the 1st base : "))
+b2 = int(input("enter the 2nd base : "))
+h = int(input("enter the height : "))
+area = calcarea(b,h)
+print("area of trapezoid : ",area)
+
+
+#area of a circle
+def calcarea(r,pi):
+   area = pi * r * r
+   return area
+r = int(input("enter thr radius :" ))
+pi = 22/7
+area = calcarea(r,pi)
+print("area of circle : ",area)
+
+
+#circumference of a circle
+def calcarea(r,pi):
+    circumference = 2 * pi * r
+    return circumference
+r = int(input("enter the radius :" ))
+pi = 22/7
+circumference = calcarea(r,pi)
+print("circumference of a circle : ",circumference)
+
+
+#surface area of a cube
+def calcarea(a):
+    surface_area = 6 * a * a
+    return surface_area
+a = int(input("enter the length of the sides of the cube :" ))
+surface_area = calcarea(a)
+print("surface area of the cube : ",surface_area)
+
+
+#curved surface area of a cylinder
+def calcarea(r,h,pi):
+   curved_surface_area = 2 * pi * r * h 
+   return  curved_surface_area
+pi = 22/7
+r = int(input("enter the radius :" ))
+h = int(input("enter the height :" ))
+curved_surface_area = calcarea(r,h,pi)
+print("curved surface area of a cylinder : ",curved_surface_area)
+
+
+#total surface area of a cylinder
+def calcarea(r,h,pi):
+    total_surface_area = 2 * pi * r * (r + h)
+    return total_surface_area
+pi = 22/7
+r = int(input("enter the radius :" ))
+h = int(input("enter the height :" ))
+total_surface_area = calcarea(r,h,pi)
+print("total surface area of a cylinder : ",total_surface_area)
+
+
+#volume of a cylinder
+def calcarea(r,h,pi):
+   volume = pi * r * r * h
+   return volume
+r = int(input("enter the radius :" ))
+h = int(input("enter the height :" ))
+pi = 22/7
+volume = calcarea(r,h,pi)
+print("volume of a cylinder : ",volume)
+
+
+#acceleration formular
+def calcarea(v,u,t):
+    acceleration = (v - u)/t
+    return acceleration
+v = int(input("enter the value of v :" ))
+u = int(input("enter the value of u :" ))
+t = int(input("enter the value of t :" ))
+acceleration = calcarea(v,u,t) 
+print("acceleration : ",acceleration)
+
+
+#formular for density
+def calcarea(m,v):
+    density = m / v
+    return density
+m = int(input("enter the mass :" ))
+v = int(input("enter the velocity :" ))
+density = calcarea(m,v)
+print("density : ",density)
+
+
+#formular for pressure
+def calcarea(F,A):
+    pressure = F / A
+    return pressure
+F = int(input("enter the force :" ))
+A = int(input("enter the total area of the object :" ))
+pressure = calcarea(F,A)
+print("pressure : ",pressure)
+
+
+#formular for kinetic energy
+def calcarea(m,v):
+    kinetic_energy = 1/2 * m * v * v
+    return kinetic_energy
+m = int(input("enter the mass :" ))
+v = int(input("enter the velocity :" ))
+kinetic_energy = calcarea(m,v)
+print("kinetic energy : ",kinetic_energy)
+
+
+#formular for voltage
+def calcarea(I,R):
+    voltage = I * R
+    return voltage
+I = int(input("enter the current :" ))
+R = int(input("enter the resistance :" ))
+voltage = calcarea(I,R)
+print("voltage : ",voltage)
